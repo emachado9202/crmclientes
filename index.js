@@ -8,6 +8,7 @@ const connectDB = require("./config/db");
 connectDB();
 
 const server = new ApolloServer({
+  cors: { origin: "*" },
   typeDefs: schema,
   resolvers,
   context: ({ req }) => {

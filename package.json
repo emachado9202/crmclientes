@@ -4,7 +4,8 @@
   "description": "GraphQL for DMcPhersonEditorial",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node -e js"
+    "dev": "nodemon ./index.js --exec babel-node -e js",
+    "start":"node index.js"
   },
   "author": "Erick Machado Alvarez",
   "license": "ISC",
